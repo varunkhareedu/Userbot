@@ -94,7 +94,7 @@ async def carbon_api(e):
    #driver.find_element_by_xpath("//button[contains(text(),'PNG')]").click()
    #sleep(5) #Waiting for downloading
 
-   await e.edit("⬛⬛⬛⬛⬛")
+   await e.edit("🟪🟦🟪🟦🟪")
    file = './carbon.png'
    await e.edit("✅RGB Karbon Completed, Uploading...........")
    await e.client.send_file(
