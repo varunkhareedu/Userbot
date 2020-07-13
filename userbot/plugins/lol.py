@@ -33,10 +33,7 @@ async def _(event):
     if (x==3):
       await event.edit(";l;o;l;")
     if (x==4):
-      await event.edit("╱┏┓╱╱╱╭━━━╮┏┓╱╱╱╱ 
-╱┃┃╱╱╱┃╭━╮┃┃┃╱╱╱╱ 
-╱┃┗━━┓┃╰━╯┃┃┗━━┓╱ 
-╱┗━━━┛╰━━━╯┗━━━┛╱")
+      await event.edit("lo/;l")
     if (x==5):
       await event.edit("/lol/*")
     if (x==6):
