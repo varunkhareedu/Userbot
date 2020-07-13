@@ -9,6 +9,8 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/72b8334d6855f6a9c9839.jpg"
 pm_caption = "`FRIDAY IS:` **ONLINE**\n\n"
 pm_caption += "**📥Moives Group📥** : `@cinema_lokamm`\n\n\n"
+pm_caption += " [🍿Join Movies Group🍿](https://t.me/joinchat/Oq1jlViv1uS2AkOG9MKChw)\n\n"
+
 pm_caption += "**SYSTEM STATUS**\n\n"
 pm_caption += "`TELETHON VERSION:` **6.0.9**\n`Python:` **3.7.4**\n\n"
 pm_caption += "`DATABASE STATUS:` **Functional**\n\n"
