@@ -49,5 +49,5 @@ async def getwell(event):
 async def color (event):
     if event.fwd_from:
         return
-    await event.edit("<div><span style="color:#ff0000;">!</span><span style="color:#ff7f00;">Y</span><span style="color:#ffbf00;">o</span><span style="color:#ffff00;">u</span><span style="color:#00ff00;"> </span><span style="color:#00ff80;">c</span><span style="color:#00ffff;">a</span><span style="color:#0000ff;">n</span></div>"")
+    await event.edit("<div><span style="color:#ff0000;">!</span><span style="color:#ff7f00;">Y</span><span style="color:#ffbf00;">o</span><span style="color:#ffff00;">u</span><span style="color:#00ff00;"> </span><span style="color:#00ff80;">c</span><span style="color:#00ffff;">a</span><span style="color:#0000ff;">n</span></div>")
 
