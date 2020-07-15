@@ -49,7 +49,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 await event.edit("Approved to pm [{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.delete()
-
+pm_caption += "**📥My Group📥** : [🍿Join Movies Group🍿](https://t.me/joinchat/Oq1jlViv1uS2AkOG9MKChw)\n\n"
 
     @command(pattern="^.block ?(.*)")
     async def approve_p_m(event):
