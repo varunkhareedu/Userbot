@@ -6,7 +6,6 @@ import os
 import sys
 from uniborg.util import admin_cmd
 
-
 @borg.on(admin_cmd(pattern=r"color"))
 async def color(event):
     if event.fwd_from:
