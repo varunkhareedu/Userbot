@@ -27,7 +27,7 @@ USER_BOT_NO_WARN = ("`Hello My Friend ! This is` **F.R.I.D.A.Y**\n"
                     f"{DEFAULTUSER} is Busy ! Please Don't Spam My Masters Inbox\n\n"
                     f"{CUSTOM_MIDDLE_PMP} \n\n"
                     "**Kindly Send** `/start` **If You Want To Register Your Request**")
-pm_caption += " [Deploy FridayUserbot](https://telegra.ph/FRIDAY-06-15)"
+
 
 if Var.PRIVATE_GROUP_ID is not None:
     @command(pattern="^.approve ?(.*)")
