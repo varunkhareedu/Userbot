@@ -140,7 +140,7 @@ def generate_change_log(git_repo, diff_marker):
 
 async def deploy_start(bot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
-    await message.edit("**ᴛʜᴇ ʟᴀᴛᴇꜱᴛ ʙʀᴀɴᴄʜ** `ᴍᴀꜱᴛᴇʀ` **ʜᴀꜱ ʙᴇᴇɴ ᴘᴜꜱʜᴇᴅ ᴛᴏ ʜᴇʀᴏᴋᴜ▣™** \n**ɴᴏᴡ ᴛʀʏɪɴɢ ᴀ ʀᴇꜱᴛᴀʀᴛ ᴛᴏ ᴄᴏᴍᴘʟᴇᴛᴇ ᴜᴘᴅᴀᴛɪᴏɴ ᴘʀᴏᴄᴇꜱꜱ ⚠️ !!** ᵀᵒ ᶜʰᵉᶜᵏ ᴵᶠ ᴵ ᵃᵐ ᴬˡⁱᵛᵉ ᴶᵘˢᵗ ᴰᵒ `.ᵃˡⁱᵛᵉ` ᵒʳ `.ʰᵉˡᵖ` !!!! ᵀʰᵃⁿᵏ ᶠᵒʳ ᵁˢⁱⁿᵍ ᶠʳⁱᵈᵃʸ ᵁˢᵉʳᵇᵒᵗ ˢᵉʳᵛⁱᶜᵉ➲\n⇩⇩⇩⇩⇩⇩⇩⇩\n")
+    await message.edit("**ᴛʜᴇ ʟᴀᴛᴇꜱᴛ ʙʀᴀɴᴄʜ** `ᴍᴀꜱᴛᴇʀ` **ʜᴀꜱ ʙᴇᴇɴ ᴘᴜꜱʜᴇᴅ ᴛᴏ ʜᴇʀᴏᴋᴜ▣™** \n**ɴᴏᴡ ᴛʀʏɪɴɢ ᴀ ʀᴇꜱᴛᴀʀᴛ ᴛᴏ ᴄᴏᴍᴘʟᴇᴛᴇ ᴜᴘᴅᴀᴛɪᴏɴ ᴘʀᴏᴄᴇꜱꜱ ⚠️ !!** ᵀᵒ ᶜʰᵉᶜᵏ ᴵᶠ ᴵ ᵃᵐ ᴬˡⁱᵛᵉ ᴶᵘˢᵗ ᴰᵒ `.ᵃˡⁱᵛᵉ` ᵒʳ `.ʰᵉˡᵖ` !!!! ᵀʰᵃⁿᵏ ᶠᵒʳ ᵁˢⁱⁿᵍ ᶠʳⁱᵈᵃʸ ᵁˢᵉʳᵇᵒᵗ ˢᵉʳᵛⁱᶜᵉ➲\n⇩⇩⇩⇩⇩⇩⇩⇩\n@Green_hat_07")
     await remote.push(refspec=refspec)
     await bot.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
