@@ -16,9 +16,9 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = "https://github.com/AmshenShanu07/Userbot"
-BOT_IS_UP_TO_DATE = "Friday userbot is up-to-date!."
+BOT_IS_UP_TO_DATE = "Linda userbot is up-to-date!."
 NEW_BOT_UP_DATE_FOUND = (
-    "**Friday Update Found For** {branch_name}\n"
+    "**Linda Update Found For** {branch_name}\n"
     "\n\n{changelog}\n"
     "Pulling Updates !!"
 )
